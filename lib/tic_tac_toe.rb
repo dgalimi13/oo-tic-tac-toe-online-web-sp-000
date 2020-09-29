@@ -39,18 +39,11 @@ def turn_count
   @board.each do |move|
     if move == "X" || move == "O"
     counter += 1
-  end 
+end 
 end
 return counter
 end 
 
-def current_player
-  move = turn_count(@board)
-  if move % 2 == 0
-    return "X"
-  else
-  return "O"
-end 
-end 
+
   
 end 
