@@ -82,6 +82,7 @@ end
   end 
   
   def over?
-    
-  end 
+  won? || draw?
+end
+   
 end 
