@@ -18,9 +18,8 @@ def input_to_index(string)
   string.to_i - 1
 end
     
-    def move
-      def move(@board,position,character)
+def move(@board,position,character)
   @board[position] = character
-    end
+end
   
 end 
