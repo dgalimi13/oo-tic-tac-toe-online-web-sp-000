@@ -21,7 +21,6 @@ end
     def move
       def move(@board,position,character)
   @board[position] = character
-end
     end
   
 end 
