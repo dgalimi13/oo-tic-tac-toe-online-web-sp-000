@@ -27,7 +27,12 @@ def position_taken?(index)
 end
 
 def valid_move?
-  
-end 
+  if board[index] == " " && index >= 0 && index <= 8
+    return true
+  else
+    false
+end
+end
+
   
 end 
