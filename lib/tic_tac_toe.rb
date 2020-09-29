@@ -77,4 +77,8 @@ def full?
   end  
 end 
   
+  def draw?
+    
+  end 
+  
 end 
