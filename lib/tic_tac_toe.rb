@@ -45,7 +45,7 @@ return counter
 end 
 
 def current_player
-  move = turn_count(board)
+  move = turn_count(@board)
   if move % 2 == 0
     return "X"
   else
