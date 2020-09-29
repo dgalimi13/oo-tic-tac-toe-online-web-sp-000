@@ -44,7 +44,7 @@ end
 return counter
 end 
 
-def current_player
+def current_player(board)
   move = turn_count(board)
   if move % 2 == 0
     return "X"
