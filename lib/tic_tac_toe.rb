@@ -22,4 +22,8 @@ def move(index,character = "X")
   @board[index] = character
 end
   
+  def position_taken?
+    
+  end
+  
 end 
