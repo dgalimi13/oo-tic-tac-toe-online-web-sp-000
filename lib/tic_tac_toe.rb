@@ -78,7 +78,8 @@ def full?
 end 
   
   def draw?
-    
+   !won? && full?
+end
   end 
   
 end 
