@@ -19,7 +19,7 @@ def input_to_index(string)
 end
     
 def move(index,character = "X")
-  @board[position] = character
+  @board[index] = character
 end
   
 end 
