@@ -22,7 +22,7 @@ def move(index,character = "X")
   @board[index] = character
 end
   
-def position_taken?
+def position_taken?(index)
 @board[index] == "X" || @board[index] == "O"
 end
   
