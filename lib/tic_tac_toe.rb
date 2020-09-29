@@ -71,5 +71,8 @@ def won?
 end 
 end
   
+def full?
+    
+end 
   
 end 
