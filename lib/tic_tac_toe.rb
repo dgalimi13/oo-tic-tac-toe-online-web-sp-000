@@ -44,7 +44,7 @@ end
 return counter
 end 
 
-def 
+def current_player
   
 end 
   
